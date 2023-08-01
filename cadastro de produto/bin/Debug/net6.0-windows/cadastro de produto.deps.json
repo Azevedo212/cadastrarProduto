@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "cadastro de produto/1.0.0": {
+        "runtime": {
+          "cadastro de produto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cadastro de produto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\bin\Debug\net6.0-windows\cadastro de produto.exe
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\bin\Debug\net6.0-windows\cadastro de produto.deps.json
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\bin\Debug\net6.0-windows\cadastro de produto.runtimeconfig.json
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\bin\Debug\net6.0-windows\cadastro de produto.dll
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\bin\Debug\net6.0-windows\cadastro de produto.pdb
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.csproj.AssemblyReference.cache
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro_de_produto.Form1.resources
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.csproj.GenerateResource.cache
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.AssemblyInfoInputs.cache
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.AssemblyInfo.cs
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.csproj.CoreCompileInputs.cache
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.dll
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\refint\cadastro de produto.dll
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.pdb
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\cadastro de produto.genruntimeconfig.cache
+C:\Users\2022102020085\Documents\logica\3bimestre\cadastro de produto\cadastro de produto\obj\Debug\net6.0-windows\ref\cadastro de produto.dll
