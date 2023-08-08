@@ -32,7 +32,7 @@
             tx_descricao = new TextBox();
             tx_preco = new TextBox();
             tx_lucro = new TextBox();
-            tx_valor = new TextBox();
+            tx_Valor = new TextBox();
             bt_excluir = new Button();
             bt_Cadastrar = new Button();
             bt_novo = new Button();
@@ -41,6 +41,8 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // tx_codigo
@@ -71,25 +73,27 @@
             tx_lucro.Size = new Size(100, 23);
             tx_lucro.TabIndex = 3;
             // 
-            // tx_valor
+            // tx_Valor
             // 
-            tx_valor.Location = new Point(140, 233);
-            tx_valor.Name = "tx_valor";
-            tx_valor.Size = new Size(109, 23);
-            tx_valor.TabIndex = 4;
+            tx_Valor.Enabled = false;
+            tx_Valor.Location = new Point(140, 233);
+            tx_Valor.Name = "tx_Valor";
+            tx_Valor.Size = new Size(109, 23);
+            tx_Valor.TabIndex = 4;
             // 
             // bt_excluir
             // 
-            bt_excluir.Location = new Point(415, 286);
+            bt_excluir.Location = new Point(456, 286);
             bt_excluir.Name = "bt_excluir";
             bt_excluir.Size = new Size(88, 38);
             bt_excluir.TabIndex = 5;
             bt_excluir.Text = "Excluir";
             bt_excluir.UseVisualStyleBackColor = true;
+            bt_excluir.Click += bt_excluir_Click;
             // 
             // bt_Cadastrar
             // 
-            bt_Cadastrar.Location = new Point(308, 286);
+            bt_Cadastrar.Location = new Point(349, 286);
             bt_Cadastrar.Name = "bt_Cadastrar";
             bt_Cadastrar.Size = new Size(78, 40);
             bt_Cadastrar.TabIndex = 6;
@@ -99,12 +103,13 @@
             // 
             // bt_novo
             // 
-            bt_novo.Location = new Point(201, 286);
+            bt_novo.Location = new Point(242, 286);
             bt_novo.Name = "bt_novo";
             bt_novo.Size = new Size(75, 38);
             bt_novo.TabIndex = 7;
             bt_novo.Text = "Novo";
             bt_novo.UseVisualStyleBackColor = true;
+            bt_novo.Click += bt_novo_Click;
             // 
             // label1
             // 
@@ -151,11 +156,22 @@
             label5.TabIndex = 12;
             label5.Text = "Lucro %:";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(37, 349);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(529, 145);
+            dataGridView1.TabIndex = 13;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(598, 411);
+            ClientSize = new Size(619, 528);
+            Controls.Add(dataGridView1);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -164,13 +180,14 @@
             Controls.Add(bt_novo);
             Controls.Add(bt_Cadastrar);
             Controls.Add(bt_excluir);
-            Controls.Add(tx_valor);
+            Controls.Add(tx_Valor);
             Controls.Add(tx_lucro);
             Controls.Add(tx_preco);
             Controls.Add(tx_descricao);
             Controls.Add(tx_codigo);
             Name = "Form1";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -181,7 +198,7 @@
         private TextBox tx_descricao;
         private TextBox tx_preco;
         private TextBox tx_lucro;
-        private TextBox tx_valor;
+        private TextBox tx_Valor;
         private Button bt_excluir;
         private Button bt_Cadastrar;
         private Button bt_novo;
@@ -190,5 +207,6 @@
         private Label label3;
         private Label label4;
         private Label label5;
+        private DataGridView dataGridView1;
     }
 }

@@ -8,6 +8,8 @@
 
     public double PrecoAquisicao { get; set; }
 
+    public double Valor { get; set; }
+
     public CadProduto()
     {
 
@@ -21,8 +23,9 @@
         this.Lucro = Lucro;
     }
 
-    public double Produto()
+    public double Produto(double PrecoAquisicao, double Lucro)
     {   
-        return (PrecoAquisicao / Lucro) + PrecoAquisicao;       
+        this.Valor = ((Lucro / 100) * PrecoAquisicao) + PrecoAquisicao;
+        return this.Valor;     
     }
 }
