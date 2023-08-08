@@ -18,7 +18,8 @@ namespace cadastro_de_produto
             {
                 a.Codigo = tx_codigo.Text;
                 a.Descricao = tx_descricao.Text;
-                
+                a.PrecoAquisicao = Convert.ToDouble(tx_preco.Text);
+                a.Lucro = Convert.ToDouble(tx_lucro.Text);
 
                 tx_Valor.Text = a.Produto(a.PrecoAquisicao, a.Lucro).ToString();
 
@@ -28,11 +29,13 @@ namespace cadastro_de_produto
                 dataGridView1.Refresh();
                 dataGridView1.DataSource = produtos;
             }          
+            catch (FormatException ex)
+            {
+                MessageBox.Show("Formato inválido!");
+            }
             catch (Exception ex)
             {
-                a.PrecoAquisicao = Convert.ToDouble(tx_preco.Text);
-                a.Lucro = Convert.ToDouble(tx_lucro.Text);
-                MessageBox.Show("ERRO, DIGITE APENAS NÚMEROS!!!");
+                MessageBox.Show("Ocorreu um erro inesperado!");
             }
         }
 
